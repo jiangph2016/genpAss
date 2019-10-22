@@ -13,6 +13,30 @@ rules = [
     '{name}!0123',
     '{name}123',
     '{name}123!@#',
+    '{name}123.',
+    '{name}123@',
+    '{name}123!',
+    '{name}2008',
+    '{name}#123',
+    '{name}@123',
+    '{name}2014',
+    '{name}2015',
+    '{name}2016',
+    '{name}2017',
+    '{name}2018',
+    '{name}2019',
+    '{name}@2014',
+    '{name}@2015',
+    '{name}@2016',
+    '{name}@2017',
+    '{name}@2018',
+    '{name}@2019',
+    '2017{name}',
+    '2018{name}',
+    '2019{name}',
+    '123{name}',
+    '123@{name}',
+    '123!{name}'
     '{username}.',
     '{username}!',
     '{username}!0123',
@@ -48,8 +72,9 @@ rules = [
 
     'QQ{qq}',
     'qq{qq}',
+    'q{qq}',
     '{qq}@{name}',
-
+    '{qq}.{name}',
     '{username}@{company}',
     '{username}#{company}',
     '{name}@{company}',
@@ -57,7 +82,10 @@ rules = [
 
     '{name}{qq}',
     '{name}{birthday}',
+    '{name}.{birthday}',
+    '{name}@{birthday}'
     '{birthday}{name}',
+    '{birthday}.{name}',
 
     '{name}{mobile}',
 ]
