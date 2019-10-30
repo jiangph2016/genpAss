@@ -25,12 +25,17 @@ rules = [
     '{name}2017',
     '{name}2018',
     '{name}2019',
+    '{name}2020',
+    '{name}nb',
+    '{name}666',
+    '{name}_',
     '{name}@2014',
     '{name}@2015',
     '{name}@2016',
     '{name}@2017',
     '{name}@2018',
     '{name}@2019',
+    '{name}@2020',
     '2017{name}',
     '2018{name}',
     '2019{name}',
@@ -82,10 +87,13 @@ rules = [
 
     '{name}{qq}',
     '{name}{birthday}',
+    '{name}_{birthday}',
     '{name}.{birthday}',
     '{name}@{birthday}'
     '{birthday}{name}',
+    '{birthday}_{name}',
     '{birthday}.{name}',
+
 
     '{name}{mobile}',
 ]
